@@ -25,7 +25,7 @@ export default function Cart() {
       {/* Rectangle Section */}
       <div className="absolute mt-[-44px] left-0 w-full h-[200px] bg-[#F6F5FF]">
         <h1
-          className="text-[#151875] font-bold ml-[283px] mt-[67px] font-[Josefin Sans]"
+          className="text-[#151875] font-bold ml-[283px] mt-[67px] "
           style={{
             fontSize: "36px",
             lineHeight: "25.78px",
@@ -36,7 +36,6 @@ export default function Cart() {
         <p
           className="mt-5 ml-[286px]"
           style={{
-            fontFamily: "Josefin Sans",
             fontSize: "16px",
             fontWeight: 500,
             lineHeight: "14.4px",
@@ -134,7 +133,7 @@ export default function Cart() {
         </div>
 {/* Right Column: Cart Totals */}
 <section>
-<h2 className="text-[#151875] font-[Josefin Sans] ml-[15px] mt-[130px] text-[24px] whitespace-nowrap font-bold mb-6">Cart Totals</h2>
+<h2 className="text-[#151875]  ml-[15px] mt-[130px] text-[24px] whitespace-nowrap font-bold mb-6">Cart Totals</h2>
 <div className="w-[350px] h-[300px] ml-[-90px] mt-[30px] bg-[#F6F5FF] p-8 shadow-md rounded-lg">
   
   <div className="space-y-4">
@@ -161,7 +160,7 @@ export default function Cart() {
 
 {/* Calculate shipping */}
 <section>
-<h2 className="text-[#151875] font-[Josefin Sans]  absolute ml-[-320px] mt-[570px] text-[24px] whitespace-nowrap font-bold mb-6">Calculate Shipping</h2>
+<h2 className="text-[#151875]  absolute ml-[-320px] mt-[570px] text-[24px] whitespace-nowrap font-bold mb-6">Calculate Shipping</h2>
 <div className="w-[350px] h-[300px] absolute ml-[-390px] mt-[657px] bg-[#F6F5FF] p-8 shadow-md rounded-lg">
   
   <div className="space-y-4">

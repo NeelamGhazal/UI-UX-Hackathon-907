@@ -4,15 +4,6 @@ import { FaShoppingCart, } from "react-icons/fa";
 import {  FaHeart } from "react-icons/fa";
 import { FaSearchPlus } from "react-icons/fa";
 import Link from "next/link";
-import { Josefin_Sans } from "next/font/google"; // Use PascalCase for the font
-
-// Load the Josefin Sans font at the module scope
-const josefin = Josefin_Sans({
-  weight: ['400', '700'],
-  style: 'normal',
-  subsets: ['latin'],
-  display: 'swap',
-});
 
 export default function SideBar() {
   const products = [
@@ -87,11 +78,10 @@ export default function SideBar() {
   {/* Sidebar */}
   <div className="w-64 h-screen p-6 absolute left-0 top-0 mt-[527px] ml-[209px] ">
         <h2
-          className="font-josefin text-[20px] font-bold leading-[30px] text-center underline decoration-2 decoration-[#151875] underline-offset-4"
+          className="text-[20px] font-bold leading-[30px] text-center underline decoration-2 decoration-[#151875] underline-offset-4"
           style={{
             textUnderlinePosition: "from-font",
             textDecorationSkipInk: "none",
-            fontFamily: "Josefin Sans"
           }}
         >
           Product Brand
@@ -145,11 +135,10 @@ export default function SideBar() {
 
       <div className="w-64 h-screen p-6 absolute left-0 top-0 mt-[855px] ml-[209px] ">
         <h2
-          className="font-josefin text-[20px] font-bold leading-[30px] text-center underline decoration-2 decoration-[#151875] underline-offset-4"
+          className=" text-[20px] font-bold leading-[30px] text-center underline decoration-2 decoration-[#151875] underline-offset-4"
           style={{
             textUnderlinePosition: "from-font",
             textDecorationSkipInk: "none",
-            fontFamily: "Josefin Sans"
           }}
         >
           Discount Offer
@@ -198,11 +187,10 @@ export default function SideBar() {
 {/* Rating Item */}
 <div className="w-64 h-screen p-6 absolute left-0 top-0 mt-[1070px] ml-[209px]">
   <h2
-    className="font-josefin ml-[-28px] text-[20px] font-bold leading-[30px] text-center underline decoration-2 decoration-[#151875] underline-offset-4"
+    className=" ml-[-28px] text-[20px] font-bold leading-[30px] text-center underline decoration-2 decoration-[#151875] underline-offset-4"
     style={{
       textUnderlinePosition: "from-font",
       textDecorationSkipInk: "none",
-      fontFamily: "Josefin Sans",
     }}
   >
     Rating Item
@@ -253,11 +241,10 @@ export default function SideBar() {
 
 <div className="w-64 h-screen p-6 absolute left-0 top-0 mt-[1313px] ml-[209px] ">
         <h2
-          className="ml-[-40px] font-josefin text-[20px] font-bold leading-[30px] text-center underline decoration-2 decoration-[#151875] underline-offset-4"
+          className="ml-[-40px]  text-[20px] font-bold leading-[30px] text-center underline decoration-2 decoration-[#151875] underline-offset-4"
           style={{
             textUnderlinePosition: "from-font",
             textDecorationSkipInk: "none",
-            fontFamily: "Josefin Sans"
           }}
         >
           Categories
@@ -313,11 +300,10 @@ export default function SideBar() {
 {/* Price Filter */}
 <div className="w-64 h-screen p-6 absolute left-0 top-0 mt-[1760px] ml-[209px]">
   <h2
-    className="ml-[-40px] font-josefin text-[20px] font-bold leading-[30px] text-center underline decoration-2 decoration-[#151875] underline-offset-4"
+    className="ml-[-40px] text-[20px] font-bold leading-[30px] text-center underline decoration-2 decoration-[#151875] underline-offset-4"
     style={{
       textUnderlinePosition: "from-font",
       textDecorationSkipInk: "none",
-      fontFamily: "Josefin Sans",
     }}
   >
     Price Filter
@@ -378,11 +364,10 @@ export default function SideBar() {
 {/* Filter By Color*/}
 <div className="w-64 h-screen p-6 absolute left-0 top-0 mt-[2070px] ml-[221px]">
   <h2
-    className="ml-[-40px] font-josefin text-[20px] font-bold leading-[30px] text-center underline decoration-2 decoration-[#151875] underline-offset-4"
+    className="ml-[-40px] text-[20px] font-bold leading-[30px] text-center underline decoration-2 decoration-[#151875] underline-offset-4"
     style={{
       textUnderlinePosition: "from-font",
       textDecorationSkipInk: "none",
-      fontFamily: "Josefin Sans",
     }}
   >
     Filter By Color
@@ -423,7 +408,7 @@ export default function SideBar() {
         <h1 className="mt-6 text-[#151875] font-bold ml-[279px] pt-[67px]" style={{ fontSize: "36px", lineHeight: "25.78px" }}>
           Shop List Sidebar
         </h1>
-        <p className="mt-5 ml-[282px]" style={{ fontFamily: "Josefin Sans", fontSize: "16px", fontWeight: 500, lineHeight: "14.4px", color: "black" }}>
+        <p className="mt-5 ml-[282px]" style={{ fontSize: "16px", fontWeight: 500, lineHeight: "14.4px", color: "black" }}>
           Home . Pages <span className="text-[#FB2E86]">. Shop Left Sidebar</span>
         </p>
       </div>
@@ -431,7 +416,7 @@ export default function SideBar() {
       {/* Title Section */}
       <div className="mt-[110px] w-full flex items-center justify-between px-10">
         <div>
-          <h2 className="text-[#151875] font-[Josefin Sans] ml-[230px] font-bold" style={{ fontFamily: "Josefin Sans", fontSize: "22px", lineHeight: "25.78px" }}>
+          <h2 className="text-[#151875]  ml-[230px] font-bold" style={{  fontSize: "22px", lineHeight: "25.78px" }}>
             Ecommerce Accessories & Fashion Items
           </h2>
           <p className="mt-2 ml-[233px]" style={{ fontFamily: "Lato", fontSize: "12px", fontWeight: 400, lineHeight: "14.4px", color: "#8A8FB9" }}>

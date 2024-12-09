@@ -8,7 +8,7 @@ export default function Faq() {
       {/* Rectangle Section */}
       <div className="absolute mt-[-44px] left-0 w-full h-[200px] bg-[#F6F5FF]">
         <h1
-          className="text-[#151875] font-bold ml-[283px] mt-[67px] font-[Josefin Sans]"
+          className="text-[#151875] font-bold ml-[283px] mt-[67px] "
           style={{
             fontSize: "36px",
             lineHeight: "25.78px",
@@ -19,7 +19,6 @@ export default function Faq() {
         <p
           className="mt-5 ml-[286px]"
           style={{
-            fontFamily: "Josefin Sans",
             fontSize: "16px",
             fontWeight: 500,
             lineHeight: "14.4px",

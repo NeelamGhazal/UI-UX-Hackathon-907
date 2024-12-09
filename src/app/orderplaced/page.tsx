@@ -7,7 +7,7 @@ export default function Order() {
       {/* Rectangle Section */}
       <div className="absolute mt-[-44px] left-0 w-full h-[200px] bg-[#F6F5FF]">
         <h1
-          className="text-[#151875] font-bold ml-[283px] mt-[67px] font-[Josefin Sans]"
+          className="text-[#151875] font-bold ml-[283px] mt-[67px]"
           style={{
             fontSize: "36px",
             lineHeight: "25.78px",
@@ -18,7 +18,6 @@ export default function Order() {
         <p
           className="mt-5 ml-[286px]"
           style={{
-            fontFamily: "Josefin Sans",
             fontSize: "16px",
             fontWeight: 500,
             lineHeight: "14.4px",
@@ -56,7 +55,7 @@ export default function Order() {
       
       {/* Description and Button Section */}
       <div className=" mt-[100px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-        <p className="mt-4 text-[#151875] font-josefin-sans font-bold text-[36px]">Your Order Is Completed</p>
+        <p className="mt-4 text-[#151875]  font-bold text-[36px]">Your Order Is Completed</p>
         
         <p className="mt-7 text-[#7E81A2] text-[16px] font-lato leading-[34px]">
           Thank you for your order! Your order is being processed and will be completed within 3-6 hours. You will receive an email confirmation when your order is completed.

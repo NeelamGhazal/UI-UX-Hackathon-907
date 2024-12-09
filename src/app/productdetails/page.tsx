@@ -7,7 +7,7 @@ export default function ProductDetails() {
       {/* Rectangle Section */}
       <div className="absolute mt-[-44px] left-0 w-full h-[200px] bg-[#F6F5FF]">
         <h1
-          className="text-[#151875] font-bold ml-[283px] mt-[67px] font-[Josefin Sans]"
+          className="text-[#151875] font-bold ml-[283px] mt-[67px] "
           style={{
             fontSize: "36px",
             lineHeight: "25.78px",
@@ -18,7 +18,6 @@ export default function ProductDetails() {
         <p
           className="mt-5 ml-[286px]"
           style={{
-            fontFamily: "Josefin Sans",
             fontSize: "16px",
             fontWeight: 500,
             lineHeight: "14.4px",
@@ -48,12 +47,12 @@ export default function ProductDetails() {
           </p>
           <div className="flex items-center gap-2">
 
-  <span className="font-[Josefin Sans] text-[#151875] py-2 text-[16px] font-semibold">Add to Cart</span>
+  <span className=" text-[#151875] py-2 text-[16px] font-semibold">Add to Cart</span>
   <span className="text-[#151875] text-lg  text-[16px] font-semibold">&#10084;</span>
 </div>
 
           <div className="flex items-center gap-4 mb-2">
-            <span className="font-[Josefin Sans] text-[#151875] text-[16px] font-semibold">Categories:</span>
+            <span className=" text-[#151875] text-[16px] font-semibold">Categories:</span>
           </div>
           <div className="flex items-center gap-4 mb-4">
             <span className="text-[#151875] text-[16px] font-semibold">Tags</span>
@@ -80,7 +79,7 @@ export default function ProductDetails() {
         </div>
         <div className="mt-8">
   {/* Section Headings */}
-  <div className="flex gap-10 items-center mb-4 font-[Josefin Sans] text-[16px]">
+  <div className="flex gap-10 items-center mb-4 text-[16px]">
     <h4 className="text-lg font-bold text-[#151875]">Description</h4>
     <h4 className="text-lg font-bold text-[#151875]">Additional Info</h4>
     <h4 className="text-lg font-bold text-[#151875]">Reviews</h4>
@@ -90,7 +89,7 @@ export default function ProductDetails() {
   {/* Description */}
   <div className="mb-6">
     <h4 className="font-semibold text-[#151875] mb-2 mt-11">Varius tempor.</h4>
-    <p className="text-[13px] text-[#A9ACC6] font-Josefin Sans line-[29px] text-left text-underline-position-from-font text-decoration-skip-ink-none">
+    <p className="text-[13px] text-[#A9ACC6]  line-[29px] text-left text-underline-position-from-font text-decoration-skip-ink-none">
       Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac
       est bibendum. A dish Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam heroine
       tincidunt. The Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis.
@@ -108,7 +107,7 @@ export default function ProductDetails() {
       width={16}
       height={16}
     />
-    <p className="text-[14px] text-[#A9ACC6] font-[Josefin Sans] line-[29px] text-left text-underline-position-from-font text-decoration-skip-ink-none whitespace-nowrap">
+    <p className="text-[14px] text-[#A9ACC6] line-[29px] text-left text-underline-position-from-font text-decoration-skip-ink-none whitespace-nowrap">
       Aliquam dis vulputate vulputate integer sagittis. Faucibus diam arcu,
       nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui,
       massa viverra.
@@ -121,7 +120,7 @@ export default function ProductDetails() {
       width={16}
       height={16}
     />
-    <p className="text-[13px] text-[#A9ACC6] font-[Josefin Sans] line-[29px] text-left text-underline-position-from-font text-decoration-skip-ink-none whitespace-nowrap">
+    <p className="text-[13px] text-[#A9ACC6]  line-[29px] text-left text-underline-position-from-font text-decoration-skip-ink-none whitespace-nowrap">
       Aliquam dis vulputate vulputate integer sagittis. Faucibus diam arcu,
       nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui,
       massa viverra.
@@ -134,7 +133,7 @@ export default function ProductDetails() {
       width={16}
       height={16}
     />
-    <p className="text-[14px] text-[#A9ACC6] font-[Josefin Sans] line-[29px] text-left text-underline-position-from-font text-decoration-skip-ink-none whitespace-nowrap">
+    <p className="text-[14px] text-[#A9ACC6]  line-[29px] text-left text-underline-position-from-font text-decoration-skip-ink-none whitespace-nowrap">
       Aliquam dis vulputate vulputate integer sagittis. Faucibus diam arcu,
       nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui,
       massa viverra.
@@ -147,7 +146,7 @@ export default function ProductDetails() {
       width={16}
       height={16}
     />
-    <p className="text-[14px] text-[#A9ACC6] font-[Josefin Sans] line-[29px] text-left text-underline-position-from-font text-decoration-skip-ink-none whitespace-nowrap">
+    <p className="text-[14px] text-[#A9ACC6]  line-[29px] text-left text-underline-position-from-font text-decoration-skip-ink-none whitespace-nowrap">
       Aliquam dis vulputate vulputate integer sagittis. Faucibus diam arcu,
       nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui,
       massa viverra.

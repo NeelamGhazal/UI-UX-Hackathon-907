@@ -1,13 +1,6 @@
 import Image from 'next/image';
-import { Josefin_Sans } from "next/font/google";
 
-// Load the Josefin Sans font at the module scope
-const josefin = Josefin_Sans({
-  weight: ['400', '700'],
-  style: 'normal',
-  subsets: ['latin'],
-  display: 'swap',
-});
+
 export default function MyAccount() {
     return (
       <div className="bg-gray-50 min-h-screen">
@@ -26,7 +19,6 @@ export default function MyAccount() {
         <p
           className="mt-5 ml-[286px]"
           style={{
-            fontFamily: 'Josefin Sans',
             fontSize: '16px',
             fontWeight: 500,
             lineHeight: '14.4px',
@@ -40,7 +32,7 @@ export default function MyAccount() {
         {/* Main Section */}
         <main className="container mx-auto px-4 flex flex-col items-center ">
           <div className="bg-white shadow-md rounded-lg p-8 max-w-md w-full mt-[300px]">
-            <h2 className="text-[32px] font-[Josefin Sans] font-bold text-center text-gray-800">Login</h2>
+            <h2 className="text-[32px] font-bold text-center text-gray-800">Login</h2>
             <p className="text-center font-[Lato] text-[#9096B2] text-sm mb-6">
               Please login using account details below.
             </p>

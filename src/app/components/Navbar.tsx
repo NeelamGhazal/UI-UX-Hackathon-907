@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between mx-auto w-[65%] h-16">
       {/* Logo Section */}
       <div className="flex items-center ">
-        <h1 className="font-josefin text-[32px] font-bold text-[#000] ">Hekto</h1>
+        <h1 className="text-[32px] font-bold text-[#000] ">Hekto</h1>
       </div>
 
       {/* Navigation Links */}

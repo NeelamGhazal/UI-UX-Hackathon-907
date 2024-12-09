@@ -1,15 +1,5 @@
 import Image from "next/image";
 
-import { Josefin_Sans } from "next/font/google"; // Use PascalCase for the font
-
-// Load the Josefin Sans font at the module scope
-const josefin = Josefin_Sans({
-  weight: ['400', '700'],
-  style: 'normal',
-  subsets: ['latin'],
-  display: 'swap',
-});
-
 export default function Products() {
   const products = [
     {
@@ -114,7 +104,6 @@ export default function Products() {
         <p
           className="mt-5 ml-[282px]"
           style={{
-            fontFamily: "Josefin Sans",
             fontSize: "16px",
             fontWeight: 500,
             lineHeight: "14.4px",
@@ -132,7 +121,6 @@ export default function Products() {
           <h2
             className="text-[#151875] font-bold whitespace-nowrap"
             style={{
-              fontFamily: "Josefin Sans",
               fontSize: "22px",
               lineHeight: "25.78px",
             }}

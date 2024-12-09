@@ -4,15 +4,6 @@ import { FaShoppingCart } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import {  FaSearchPlus } from "react-icons/fa";
 import Link from "next/link";
-import { Josefin_Sans } from "next/font/google"; // Use PascalCase for the font
-
-// Load the Josefin Sans font at the module scope
-const josefin = Josefin_Sans({
-  weight: ['400', '700'],
-  style: 'normal',
-  subsets: ['latin'],
-  display: 'swap',
-});
 export default function ShopList() {
   const products = [
     {
@@ -96,7 +87,6 @@ export default function ShopList() {
         <p
           className="mt-5 ml-[282px]"
           style={{
-            fontFamily: "Josefin Sans",
             fontSize: "16px",
             fontWeight: 500,
             lineHeight: "14.4px",
@@ -111,9 +101,8 @@ export default function ShopList() {
       <div className="mt-[110px] w-full flex items-center justify-between px-10">
         <div>
           <h2
-            className="text-[#151875] font-[Josefin Sans] ml-[230px] font-bold"
+            className="text-[#151875]  ml-[230px] font-bold"
             style={{
-              fontFamily: "Josefin Sans",
               fontSize: "22px",
               lineHeight: "25.78px",
             }}

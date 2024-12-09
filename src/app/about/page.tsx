@@ -1,15 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import aboutImage from "/public/images/c1.png";
-import { Josefin_Sans } from "next/font/google";
 
-// Load the Josefin Sans font at the module scope
-const josefin = Josefin_Sans({
-  weight: ['400', '700'],
-  style: 'normal',
-  subsets: ['latin'],
-  display: 'swap',
-});
 
 export default function About() {
   return (
@@ -17,7 +9,7 @@ export default function About() {
       {/* Rectangle Section */}
       <div className="absolute mt-[-44px] left-0 w-full h-[200px] bg-[#F6F5FF]">
         <h1
-          className="text-[#151875] font-bold ml-[283px] mt-[67px] font-Josefin Sans"
+          className="text-[#151875] font-bold ml-[283px] mt-[67px] "
           style={{
             fontSize: "36px",
             lineHeight: "25.78px",
@@ -28,7 +20,6 @@ export default function About() {
         <p
           className="mt-5 ml-[286px]"
           style={{
-            fontFamily: "Josefin Sans",
             fontSize: "16px",
             fontWeight: 500,
             lineHeight: "14.4px",
@@ -54,7 +45,7 @@ export default function About() {
 
         {/* Right Column: Text and Button */}
         <div className="w-1/2 flex flex-col justify-center ml-[-70px]">
-          <h2 className="text-[#151875] font-[Josefin Sans] mt-[-30px] text-[30px] font-bold mb-4">
+          <h2 className="text-[#151875] mt-[-30px] text-[30px] font-bold mb-4">
             Know About Our Ecommerce <br /> Business, History
           </h2>
           <p className="text-[#8A8FB9] mb-6 font-lato text-[14px] leading-relaxed">
